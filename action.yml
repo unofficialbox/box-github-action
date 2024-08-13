@@ -1,18 +1,36 @@
-name: Hello, World!
-description: Greet someone and record the time
-author: GitHub Actions
+name: Box File Upload
+description: Upload a File to Box
+author: Kyle Adams (kadams@box.com)
 
 # Define your inputs here.
 inputs:
-  who-to-greet:
-    description: Who to greet
+  box_client_id:
+    description: Box Client Id for Client Credentials Grant Authentication
     required: true
-    default: World
+  box_client_secret:
+    description: Box Client Secret
+    required: true
+  box_subject_type:
+    description: Box Subject Type (user or enterprise)
+    required: true
+  box_subject_id:
+    description: Box Subject Id
+    required: true
+  box_folder_id:
+    description: Parent folder for the file upload
+    required: true
+    default: '0'
+  box_file_name: 
+    description: Name of the file to upload
+    required: true
+  local_file_path: 
+    description: Path of the source file
+    required: true
 
 # Define your outputs here.
 outputs:
-  time:
-    description: The time we greeted you
+  file_id:
+    description: Box File Id
 
 runs:
   using: node20
