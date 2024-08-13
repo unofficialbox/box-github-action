@@ -4,13 +4,13 @@
   "version": "1.0.0",
   "author": "Kyle Adams (kadams@box.com)",
   "private": false,
-  "homepage": "https://github.com/unofficialbox/space-exploration#readme",
+  "homepage": "https://github.com/unofficialbox/box-github-action#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/unofficialbox/space-exploration.git"
+    "url": "git+https://github.com/unofficialbox/box-github-action.git"
   },
   "bugs": {
-    "url": "https://github.com/unofficialbox/space-exploration/issues"
+    "url": "https://github.com/unofficialbox/box-github-action/issues"
   },
   "keywords": [
     "GitHub",
