@@ -21,7 +21,7 @@ async function run() {
       boxAppSettings: {
         clientID: boxClientId,
         clientSecret: boxClientSecret
-      }, 
+      },
       enterpriseID: boxSubjectId //The enterprise id in this case is optional and can be ommited.
     }
 

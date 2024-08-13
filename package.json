@@ -1,16 +1,16 @@
 {
-  "name": "hello-world-javascript-action",
-  "description": "This action prints `Hello, World!` or `Hello, <who-to-greet>!` to the log",
+  "name": "box-github-action",
+  "description": "This action uploads a file to Box.",
   "version": "1.0.0",
-  "author": "",
-  "private": true,
-  "homepage": "https://github.com/actions/hello-world-javascript-action#readme",
+  "author": "Kyle Adams (kadams@box.com)",
+  "private": false,
+  "homepage": "https://github.com/unofficialbox/space-exploration#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actions/hello-world-javascript-action.git"
+    "url": "git+https://github.com/unofficialbox/space-exploration.git"
   },
   "bugs": {
-    "url": "https://github.com/actions/hello-world-javascript-action/issues"
+    "url": "https://github.com/unofficialbox/space-exploration/issues"
   },
   "keywords": [
     "GitHub",
