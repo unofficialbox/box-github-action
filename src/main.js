@@ -15,7 +15,7 @@ async function run() {
     const boxSubjectId = core.getInput('box_subject_id', { required: true })
     const boxFolderId = core.getInput('box_folder_id', { required: true })
     const boxFileName = core.getInput('box_file_name', { required: true })
-    const localFilePath = core.getInput('localFilePath', { required: true })
+    const localFilePath = core.getInput('local_file_path', { required: true })
 
     const sdkConfig = {
       boxAppSettings: {
